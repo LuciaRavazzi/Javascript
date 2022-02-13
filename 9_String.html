@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html>
+<body>
+	<h1 id="header"> Type something! </h1>
+	<input type="text" id="inp">
+	<button onclick="pressed()"> Click </button>
+	<p id="output"></p>
+
+	<script>
+
+		function pressed(){
+			var text = document.getElementById("inp").value;
+			
+			// UpperCase.
+			output.innerHTML = text.toUpperCase();
+
+			// LowerCase.
+			output.innerHTML = text.toLowerCase();
+
+			// startsWith.
+			output.innerHTML = text.startsWith("@");	
+
+			// endsWith.
+			output.innerHTML = text.endsWith("@");	
+
+			// trim: drop white spaces.
+			output.innerHTML = text.trim().endsWith("@");		
+
+			// length
+			console.log(text.length)		
+		}
+
+	</script>
+
+</body>
+</html>
+

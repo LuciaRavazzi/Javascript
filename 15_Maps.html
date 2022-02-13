@@ -1,0 +1,40 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+
+	<script type="text/javascript">
+
+		// Maps are python's dict.
+		
+		var mp = new Map([["key_1", 3], ["key_2", 8]])
+
+		// Get elements.
+		console.log(mp.get["key_1"])
+
+		// Set elements.
+		mp.set("key_3", 6)
+		console.log(mp)
+
+		// Delete elements.
+		mp.delete("key_1")
+		console.log(mp)
+
+		// loop over values.
+		for (var entry of mp){
+			console.log("Key:", entry[0], " value:", entry[1])
+		}
+
+		// Check content.
+		console.log(mp.has("key_1"))
+
+	</script>
+
+</body>
+</html>

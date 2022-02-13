@@ -1,0 +1,42 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<body>
+	<h1 id="header"> Hello! </h1>
+	<!-- Ogni volte che premi questo bottone, viene chiamata la funzione red() -->
+	<button onclick = "red()"> Red </button>
+	<button onclick = "green()"> Green </button>
+
+	<script>
+
+	function add(a, b){
+		console.log("add");
+
+		return a + b 
+	}
+
+	var x = add(5, 5);
+	console.log("x:", x)
+
+	var y = add(5, 7);
+	console.log("y:", y)
+
+	function red(){
+		console.log("red")
+		document.getElementById("header").innerHTML = "Red";
+		document.getElementById("header").style.color = "Red";
+	}
+
+	function green(){
+		console.log("red")
+		document.getElementById("header").innerHTML = "Green";
+		document.getElementById("header").style.color = "Green";
+	}
+
+	</script>
+
+</body>
+</html>
+

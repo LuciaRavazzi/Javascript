@@ -1,0 +1,41 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+
+	<script type="text/javascript">
+
+		// Variables are immutable (in general, primitive objects).
+		var x = 5
+		var t = x
+
+		function append5(num){
+			num += 5
+			console.log(num)
+		}
+		append5(x)
+		console.log(x)
+
+		// List are mutable.
+		var z = []
+		// any change of s will affect z -> the reference is the same.
+		var s = z
+
+		function append5_arr(arr){
+			arr.push(5)
+			console.log(arr)
+		}
+		var k = [1, 2, 3, 4]
+		append5_arr(k)
+		console.log(k)
+
+		
+	</script>
+</body>
+</html>

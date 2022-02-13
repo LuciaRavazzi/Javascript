@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+
+	<script type="text/javascript">
+
+		// Set: unordered list of elements -> there is no index.
+		var _set = new Set()
+		_set.add(3).add(6).add(3).add(11).add(31).add(12).add(13)
+
+		console.log(_set)
+
+		// Check if elements exist.
+		console.log(_set.has(6))
+
+		// Size.
+		console.log(_set.size)	
+		
+		// Delete.
+		_set.delete(3)
+		console.log(_set)		
+
+		// Loop over set.
+		for (var entry in _set.values()){
+			console.log(entry)
+		}		
+
+	</script>
+
+</body>
+</html>
