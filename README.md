@@ -16,9 +16,7 @@ Then, Google debuted its Chrome browser in 2008, with the V8 JavaScript engine <
 Repo structure:
 
 <ol>
-    
     <li> Code/Introduction: javascript basis. </li>
-  
 </ol>   
 
 
