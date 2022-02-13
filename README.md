@@ -9,17 +9,8 @@
 
 
 
-This repo consists of projects written in Javascript programming language.
-Go was born in 2009 and designed by Google's employees. It's characterized by the velocity of C but the semplicity of python. 
-It's a compiled language, which means that a compiler is required to trasform the code into a low-level language code, like assembly. 
-Moreover, since it's a static type language, the variable's type must be defined. 
+This repo consists of projects written in Javascript programming language. <br>
+Javascript, along with CSS and HTML, is one of the core technologies of the WWW. Over 97% of websites uses Javascript on the client side. All major web browsers have a dedicated JavaScript engine to execute the code on users' devices.<br>
+Basically, Javascript was born to add dynamicity to static pages of Netscape, which was one of the first web browsers, in 1995. Javascript was called in this way due to a marketing reason: when dot-com paradign boomed, Java was really a hot language.  < br>
 
-The main explained topics are the following:
-
-<ol>
-    <li> Code/Introduction: variables, if, loops, switch, functions, structs, pointers, deferences. The tutorial was explained by Tech With Tim, https://www.youtube.com/channel/UC4JX40jDee_tINbkjycV4Sg. </li>
-    <li> Code/GO-API: simple API is built. Video explanation: https://www.youtube.com/watch?v=bj77B59nkTQ </li>
-
-</ol>
-  
 
