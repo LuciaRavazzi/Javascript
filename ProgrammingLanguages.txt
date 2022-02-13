@@ -1,0 +1,26 @@
+
+
+
+What's the difference between interpreted languages and compiled langugaes?
+
+From the most to the least human-machine readable programming language:
+	- Interpreted (Python, JS, Ruby): They are super friendly to the user. Firstly, they are converted to the machine
+					  code thanks to the interpreter and the compiler. For example, CPython is the 
+					  intepreter for Python.
+
+	- Compiled (C, Go, Rust): They are more challenging. A **compiler** transform the source into the machine code.
+				  It isn't related to the architecture of the CPU.
+
+	- Assembly (like x86, MIPS, Arm): It's very close to the machine code. How assembly become machine code? 
+					  There is a univoc relationship between each line and machine code. 
+					  For example, AD $S0 $S1 $S2, which means add values of $S1 and $S2 and put them into
+					  $S0, is directly translated to the machine code. The translation is made by the **assembler**.
+					  It's connected to the architecture of the processor.
+
+	- Machine code: binary data and not textual data! Other programming language are stored as ASCII or UNICODE format.
+	  	        Binary data represents the electrical signal related to the activity of the CPU.
+
+The CPU	is characterized by three parts: 
+	- Memory stored bunary data.
+	- ALU process binary data.
+	- Control unit control all the processes inside the CPU. 
